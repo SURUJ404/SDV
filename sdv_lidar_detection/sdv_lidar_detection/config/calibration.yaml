@@ -1,0 +1,12 @@
+# Replace with calibration for the actual sensor mounting.
+K:
+  - [300.0, 0.0, 160.0]
+  - [0.0, 300.0, 80.0]
+  - [0.0, 0.0, 1.0]
+distortion: [0.0, 0.0, 0.0, 0.0, 0.0]
+# p_camera = R @ p_lidar + t
+R:
+  - [1.0, 0.0, 0.0]
+  - [0.0, 1.0, 0.0]
+  - [0.0, 0.0, 1.0]
+t: [0.0, 0.0, 0.0]

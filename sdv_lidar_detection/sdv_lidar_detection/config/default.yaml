@@ -1,0 +1,37 @@
+preprocess:
+  min_range_m: 1.0
+  max_range_m: 80.0
+  min_z_m: -3.0
+  max_z_m: 4.0
+  voxel_size_m: 0.10
+
+ground:
+  enabled: true
+  distance_threshold_m: 0.15
+  iterations: 120
+  min_inliers: 100
+  max_tilt_deg: 12.0
+
+clustering:
+  eps_m: 0.65
+  min_points: 8
+  max_points: 20000
+
+objects:
+  min_length_m: 0.25
+  max_length_m: 15.0
+  min_width_m: 0.20
+  max_width_m: 8.0
+  min_height_m: 0.25
+  max_height_m: 5.0
+
+tracking:
+  enabled: true
+  max_age: 5
+  max_match_distance_m: 3.0
+  velocity_smoothing: 0.65
+
+path:
+  forward_min_m: 1.0
+  forward_max_m: 60.0
+  lateral_half_width_m: 2.0
