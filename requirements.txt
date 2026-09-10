@@ -1,0 +1,14 @@
+tensorflow>=2.16
+opencv-python
+numpy
+pandas
+scikit-learn
+tqdm
+flask
+python-socketio
+eventlet
+pillow
+ultralytics
+cvxpy
+gymnasium
+stable-baselines3
