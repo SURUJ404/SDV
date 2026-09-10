@@ -148,7 +148,7 @@ Standalone PPO agent learning highway behaviors (lane keep, change, overtake) wi
 
 ---
 
-## 🎬 Demo & Visual Results
+
 
 <div align="center">
 
