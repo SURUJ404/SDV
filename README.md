@@ -146,13 +146,29 @@ Standalone PPO agent learning highway behaviors (lane keep, change, overtake) wi
 
 ---
 
-## 🎬 Demo
+## 🎬 Demo & Visual Results
 
-<p align="center">
-  <img src="gf/bmw.gif" alt="Self-driving car demo" width="700"/>
-</p>
+<div align="center">
 
-*Full stack running in Udacity simulator: lane segmentation (green), YOLO detections (boxes), MPC-planned trajectory*
+### 🚗 Full Autonomous Stack in Action
+<img src="gf/bmw.gif" alt="Self-driving car demo" width="900"/>
+
+<sub><i>Full stack running in Udacity Simulator: U-Net lane segmentation (green overlay) · CNN-LSTM steering · YOLOv8 vehicle detection (bounding boxes) · MPC trajectory optimization · PID speed control</i></sub>
+
+</div>
+
+<details>
+<summary><b>🔍 What you're seeing (click to expand)</b></summary>
+
+| Component | Visual Indicator | Purpose |
+|-----------|------------------|---------|
+| **U-Net Lane Seg** | Green road overlay | Pixel-perfect lane detection in all lighting |
+| **CNN-LSTM Steering** | Smooth wheel movement | Temporal awareness — anticipates curves |
+| **YOLOv8 Detection** | Colored bounding boxes | Real-time obstacle detection + distance estimation |
+| **MPC Controller** | Predicted trajectory | Optimizes steering/accel over 1s horizon |
+| **PID Speed** | Throttle/brake smoothness | Tracks target speed with zero steady-state error |
+
+</details>
 
 ---
 
