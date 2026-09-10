@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="gf/bmw.gif" alt="Advanced Self-Driving Car Demo" width="800"/>
+  <a href="https://raw.githubusercontent.com/SURUJ404/SDV/main/gf/bmw.gif">
+    <img src="https://raw.githubusercontent.com/SURUJ404/SDV/main/gf/bmw.gif" alt="Advanced Self-Driving Car Demo" width="800"/>
+  </a>
 </p>
 
 <h1 align="center">🚗 Advanced Self-Driving Car</h1>
@@ -151,7 +153,11 @@ Standalone PPO agent learning highway behaviors (lane keep, change, overtake) wi
 <div align="center">
 
 ### 🚗 Full Autonomous Stack in Action
-<img src="gf/bmw.gif" alt="Self-driving car demo" width="900"/>
+<p align="center">
+  <a href="https://raw.githubusercontent.com/SURUJ404/SDV/main/gf/bmw.gif">
+    <img src="https://raw.githubusercontent.com/SURUJ404/SDV/main/gf/bmw.gif" alt="Self-driving car demo" width="900"/>
+  </a>
+</p>
 
 <sub><i>Full stack running in Udacity Simulator: U-Net lane segmentation (green overlay) · CNN-LSTM steering · YOLOv8 vehicle detection (bounding boxes) · MPC trajectory optimization · PID speed control</i></sub>
 
