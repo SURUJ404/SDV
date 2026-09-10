@@ -6,13 +6,13 @@
 <p align="center"><b>U-Net + CNN-LSTM + YOLOv8 + MPC + PPO</b></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Research%20Internship-Blake%20Fusion-blueviolet" alt="Research Internship"/>
+  <a href="https://lf-t.net/products/"><img src="https://img.shields.io/badge/Research%20Internship-Lake%20Fusion%20Technologies-blueviolet" alt="Research Internship"/></a>
   <img src="https://img.shields.io/badge/Status-Completed-brightgreen" alt="Status"/>
   <img src="https://img.shields.io/badge/College-Project-orange" alt="College Project"/>
 </p>
 
 <blockquote align="center">
-  <b>🎓 Research Intern Project</b> — Developed during college internship at <b>Blake Fusion</b><br/>
+  <b>🎓 Research Intern Project</b> — Developed during college internship at <b><a href="https://lf-t.net/products/">Lake Fusion Technologies</a></b><br/>
   <sub>Advancing behavioral-cloning pipelines with modern perception, planning, and RL</sub>
 </blockquote>
 
